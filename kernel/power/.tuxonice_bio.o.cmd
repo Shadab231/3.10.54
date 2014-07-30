@@ -1,0 +1,1 @@
+cmd_kernel/power/tuxonice_bio.o := /home/shadab/NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86/bin/arm-linux-androideabi-ld -EL    -r -o kernel/power/tuxonice_bio.o kernel/power/tuxonice_bio_core.o kernel/power/tuxonice_bio_chains.o kernel/power/tuxonice_bio_signature.o 
