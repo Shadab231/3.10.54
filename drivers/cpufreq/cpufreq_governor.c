@@ -119,7 +119,6 @@ void dbs_check_cpu(struct dbs_data *dbs_data, int cpu)
 
 		load = 100 * (wall_time - idle_time) / wall_time;
 
-<<<<<<< HEAD
 		// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 #ifdef CONFIG_CPU_FREQ_GOV_HOTPLUG
 #if defined(CONFIG_THERMAL_LIMIT_TEST)
