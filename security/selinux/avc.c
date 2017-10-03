@@ -298,7 +298,7 @@ static void avc_operation_decision_free(
 
 static void avc_operation_free(struct avc_operation_node *ops_node)
 {
-	struct avc_operation_decision_node *od_node,
+	struct avc_operation_decision_node *od_node, *tmp;
 
 	if (!ops_node)
 		return;
